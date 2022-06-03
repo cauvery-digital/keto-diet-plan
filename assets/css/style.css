@@ -6764,3 +6764,6 @@ del {
 .switch-wrap {
 	margin-bottom: 10px
 }
+#ankada ol li{
+	list-style-type:decimal;
+}
