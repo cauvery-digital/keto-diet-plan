@@ -263,8 +263,9 @@ ul {
 }
 
 li {
-	list-style: decimal;
+	list-style: none;
 }
+ol.deci {list-style-type: decimal;}
 
 hr {
 	border-bottom: 1px solid #eceff8;
