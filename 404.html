@@ -297,7 +297,7 @@
           How you got here is a mystery. But you can click the button below
           to go back to the homepage.
         </p>
-        <button class="btn green">HOME</button>
+        <button class="btn green" onclick="gimmeCats()">HOME</button>
       </div>
     </div>
   </div>
@@ -306,5 +306,9 @@
    <script src="assets/js/404.js"></script>
    <script src="assets/js/bootstrap.min.js"></script>
    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+   <script type="text/javascript">
+	var gimmeCats = () => {
+  window.location.href = "index.html";
+}
   </body>
 </html>
